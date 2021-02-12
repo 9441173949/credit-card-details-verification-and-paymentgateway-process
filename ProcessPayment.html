@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ProcessPayment</title>
+</head>
+<body bgcolor="skyblue">
+
+<form action="/ProcessPayment" method="post">
+    <label for="credit_card_number"><h2>Credit card number:</h2></label>
+    <input type="text" id="credit_card_number" name="credit_card_number"  size="50" placeholder="Enter 16 digit credit card number" maxlength="16"  required><br>
+    <label for="card_holder_name"><h2>Card holder name:</h2></label>
+    <input type="text" id="card_holder_name" name="card_holder_name" size="50" placeholder="Enter card holder name " required><br>
+    <label for="expiration_date"><h2>Expiration date:</h2></label>
+    <input type="date" id="expiration_date" name="expiration_date" required><br>
+    <label for="security_code"><h2>Security code:</h2></label>
+    <input type="text" id="security_code" name="security_code" size="50" placeholder="Enter 3 digit security code"><br>
+    <label for="Amount"><h2>Amount:</h2></label>
+    <input type="text" id="Amount" name="Amount"  size="50" placeholder="Enter Amount" required><br><br>
+    <input type="submit" size="50" value="submit">
+</form>
+
+</body>
+</html>
